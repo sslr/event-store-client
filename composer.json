@@ -54,6 +54,12 @@
       "ProophTest\\EventStoreClient\\": "tests/"
     }
   },
+  "repositories": [
+    {
+        "type" : "vcs",
+        "url" : "https://github.com/sslr/event-store"
+    }
+],
   "scripts": {
     "check": [
       "@cs",
